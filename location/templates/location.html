@@ -1,0 +1,11 @@
+{% extends "_base.html" %} {% block content %}
+<div class="locContainer">
+  <h1 class='locationHeader'>Were in Uganda!</h1>
+  {% for post in Loc %}
+  <div class="loc">
+    <img class="locImage" src="{{ post.image.url }}" />
+    <p class="locContent">{{ post.text }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock content %}
