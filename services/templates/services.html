@@ -1,7 +1,7 @@
 {% extends "_base.html" %} {% block content %}
 <h1 class="serviceh1">Service & Prices</h1>
 <div class="itemBox">
-  {% for service in Service%}
+  {% for service in Service_list %}
   <ul class="serviceGroup">
     <li class="serviceItem">{{ service.service }}</li>
     <li class="serviceItem">{{ service.name }}</li>
