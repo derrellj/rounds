@@ -1,0 +1,52 @@
+
+*{
+    font-family: fantasy, sans-serif;
+}
+.homeh1{
+    position: absolute;
+    top: 125px;
+    color: rgba(85, 255, 0);
+    font-size: 45px;
+    z-index: 15;
+}
+.box {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: auto;
+    padding: 1rem;
+    width: 1350px;
+    height: auto;
+    border: none;
+    border-radius: 1%;
+    box-shadow: 0 0 16px 0 rgba(0, 179, 255, 0.3);
+    left: calc(2.5%);
+    top: 175px;
+    gap: 15px;
+    scroll-behavior: smooth;
+    z-index: 50;
+    margin: 1%;
+
+    background: rgba(251, 143, 215, 0.250);
+}
+
+.pageImage{
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 0.75%;
+    box-shadow: 0 0 16px 0 rgba(255, 106, 198, 0.450);
+    z-index: -10;
+
+}
+
+.content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    color: rgb(85, 255, 0);
+    font-size: 18px;
+}

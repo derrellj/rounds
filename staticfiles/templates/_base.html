@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rachel's Nails</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="stylesheet" href="{% static 'css/pages.css' %}">
+        <link rel="stylesheet" href="{% static 'css/about.css' %}">
+        <link rel="stylesheet" href="{% static 'css/services.css' %}">
+        <link rel="stylesheet" href="{% static 'css/location.css' %}"> 
+    </head>
+    <nav class='navbar'>
+        <li class='logo'><a class='linkLogo' href="{% url 'home' %}">Rachel's Nails</a></li>
+        <ul class='listGroup'>
+            <li class='listItem'><a class='linkItem' href="{% url 'services:service' %}">Services</a></li>
+            <li class='listItem'><a class='linkItem' href="{% url 'about:about' %}">About</a></li>
+            <li class='listItem'><a class='linkItem' href="{% url 'location:loc' %}">Location</a></li>
+        </ul>
+        <li class='logo2'><a class='linkLogo2' href="{% url 'home' %}">Rachel's Nails</a></li>
+    <body>
+        {% block content %}{% endblock content %}
+    </body>
+</html>
