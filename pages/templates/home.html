@@ -1,10 +1,10 @@
 {% extends "_base.html" %} {% block content %}
-<h2 class='homeh1'>Rachel's Nails & Make Up Art!</h2>
+<h2 class="homeh1">Rachel's Nails & Make Up Art!</h2>
 
 <div class="box">
-  {% for post in post_list_list %}
+  {% for post in page %}
   <div class="boxItem">
-    <div><img class='pageImage' src="{{ post.image.url }}" /></div>
+    <div><img class="pageImage" src="{{ post.image.url }}" /></div>
     <div><p class="content">{{ post.name }}</p></div>
     <div><p class="content">{{ post.about }}</p></div>
   </div>
