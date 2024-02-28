@@ -2,7 +2,7 @@
 <div class="location">
   <h2 class="lh">Were In Uganda!</h2>
   <div class="locBox">
-    {% for post in loc %}
+    {% for post in loc_list %}
     <img class="locImage" src="{{ post.image.url }}" />
     <p class="postText">{{ post.text }}</p>
   </div>
