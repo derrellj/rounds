@@ -5,5 +5,5 @@ app_name = "pages"
 
 
 urlpatterns = [
-    path("", HomePostView.as_view(), name="home"),
+    path("", HomePostView.as_view(), name="page"),
 ]

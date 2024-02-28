@@ -1,8 +1,10 @@
-{% extends "_base.html" %} {% block content %}
-<h2 class="homeh1">Rachel's Nails & Make Up Art!</h2>
+{% extends "_base.html" %} 
+{% block content %}
+{% comment %} Use this syntax for pro server {% endcomment %}
 
+<h2 class="homeh1">Rachel's Nails & Make Up Art!</h2>
 <div class="box">
-  {% for post in page_items %}
+  {% for post in page %}
   <div class="boxItem">
     <div><img class="pageImage" src="{{ post.image.url }}" /></div>
     <div><p class="content">{{ post.name }}</p></div>
@@ -11,4 +13,14 @@
   {% endfor %}
 </div>
 
-{% endblock content %}
+{% comment %} Use this when in dev server
+<div class="box">
+  {% for post in page_list %}
+  <div class="boxItem">
+    <div><img class="pageImage" src="{{ post.image.url }}" /></div>
+    <div><p class="content">{{ post.name }}</p></div>
+    <div><p class="content">{{ post.about }}</p></div>
+  </div>
+  {% endfor %}
+</div>
+{% endcomment %} {% endblock content %}
