@@ -1,6 +1,7 @@
 .venv
-.env
+env
 __pycache__/
 db.sqlite3
 .DS_Store
 docker-compose.yml
+.dockerignore
