@@ -4,15 +4,13 @@
 .homeh1 {
   color: rgba(85, 255, 0);
   font-size: 45px;
-  margin: 15px 30px;
+  margin-top: 15px;
 }
 .box {
   /* grid-template-columns: repeat(5, 250px);
   grid-template-rows: auto; 
   display: grid;
   */
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 1rem;
   border: none;
@@ -22,7 +20,11 @@
   scroll-behavior: smooth;
   margin: 1%;
   background: rgba(251, 143, 215, 0.25);
+
+  display: flex;
+  flex-wrap: wrap;
 }
+
 
 .pageImage {
   width: 250px;

@@ -1,5 +1,5 @@
 {% extends "_base.html" %} {% block content %}
-<h1 class="serviceh1">Service & Prices</h1>
+<h1 class="serviceh1 padding-h-20">Service & Prices</h1>
 <div class="itemBox">
   {% for service in service %}
   <ul class="serviceGroup">
@@ -14,6 +14,5 @@
     </ul>
   </div>
 </div>
-{% endblock content %}
-{% comment %} Use this syntax in dev server   {% for service in service_list %}
- {% endcomment %}
+{% endblock content %} {% comment %} Use this syntax in dev server {% for
+service in service_list %} {% endcomment %}
