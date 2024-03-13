@@ -1,24 +1,35 @@
 .serviceh1 {
   font-size: 50px;
   color: rgba(60, 255, 0);
-  text-shadow: 0 0 10px lightpink;
+  text-shadow: 1px 12px 6px rgba(0, 128, 0, 0.3);
 }
 
 .itemBox {
-  box-shadow: 5px 5px 10px rgba(255, 192, 203, 0.5);
-  background: rgba(173, 216, 230, 0.1);
+  margin: 2%;
+  border-radius: 2%;
+
+  padding: 25px;
+  /* box-shadow: 5px 5px 10px rgba(255, 192, 203, 0.5); */
+  /* background: rgba(173, 216, 230, 0.1); */
+  scroll-behavior: smooth;
 }
 
 .serviceGroup {
-  align-items: center;
-  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(255, 192, 203, 0.3);
 }
-
 .serviceItem {
+  width: 300px;
+  color: rgba(85, 255, 0, 0.9);
   font-size: 24px;
-  color: rgba(60, 255, 0);
+  padding: 5px;
+  margin: 5px;
 }
-
 .padding-h-30 {
-  padding-left: 50%;
+  padding-left: 35%;
+  margin-top: 25px;
 }

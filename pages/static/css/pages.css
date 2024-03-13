@@ -5,6 +5,7 @@
   color: rgba(85, 255, 0);
   font-size: 45px;
   margin: 15px 30px;
+  text-shadow: 1px 12px 6px rgba(0, 128, 0, 0.3);
 }
 .box {
   /* grid-template-columns: repeat(5, 250px);
