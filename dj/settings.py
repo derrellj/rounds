@@ -39,6 +39,8 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
+    "admin_interface",
+    "colorfield",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",

@@ -21,6 +21,7 @@
   justify-content: space-around;
   margin: 10px;
   box-shadow: 5px 5px 10px rgba(255, 192, 203, 0.3);
+  border-radius: 2%;
 }
 .serviceItem {
   width: 300px;
